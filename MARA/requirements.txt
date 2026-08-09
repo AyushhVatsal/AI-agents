@@ -1,0 +1,23 @@
+# Core LangChain / agent framework
+langchain>=1.0,<2.0
+langchain-openai>=1.0,<2.0
+langgraph>=1.0,<2.0
+
+# Tavily web-search integration
+langchain-tavily>=0.2,<1.0
+
+# Web scraping / BeautifulSoup tool
+beautifulsoup4>=4.12,<5.0
+requests>=2.32,<3.0
+
+# Environment configuration
+python-dotenv>=1.0,<2.0
+
+# Data validation / structured agent outputs
+pydantic>=2.0,<3.0'
+
+# LLM observability / tracing
+langsmith>=0.4,<1.0
+
+# Optional but useful for readable CLI output
+rich>=13.0,<15.0
